@@ -13,11 +13,11 @@ public class EjemploMatrices {
         numeros[1][2] = 13;
         numeros[1][3] = 14;
 
-        System.out.println("Numero de filas: "+numeros.length);
+        System.out.println("Numero de filas: " + numeros.length);
         System.out.println("NUmero de columnas: " + numeros[0].length);
 
-        System.out.println("Primer elemento de la matriz "+numeros[0][0]);
-        System.out.println("Ultimo elemento: "+numeros[numeros.length-1][numeros[numeros.length-1].length-1]);
+        System.out.println("Primer elemento de la matriz " + numeros[0][0]);
+        System.out.println("Ultimo elemento: " + numeros[numeros.length - 1][numeros[numeros.length - 1].length - 1]);
 
         int num1 = numeros[0][0];
         int num2 = numeros[0][1];
